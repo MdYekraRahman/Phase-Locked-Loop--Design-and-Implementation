@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vlsi25
+HostName                       CadenceServer3.localdomain
+ProcessIdentifier              192196
+ProcessCreationTime_UTC        1660022210
+ProcessCreationTime_Readable   Tue Aug  9 11:16:50 2022 BDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/vlsi25/cds_work/Project/NAND/3_input_NAND/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Aug  9 12:09:54 2022 BDT

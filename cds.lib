@@ -1,0 +1,33 @@
+
+### *************************************************************************
+### Design Libraries
+### *************************************************************************
+
+#DEFINE ether_adc45n ./designs/ether_adc45n
+#DEFINE ether_adc45n_sim ./designs/ether_adc45n_sim
+
+### *************************************************************************
+### PDK and Standard Cell Libraries
+### *************************************************************************
+
+DEFINE gpdk045   /home/cad/tech/process/gpdk045_v_5_0/gpdk045
+#DEFINE gsclib045   /home/cad/tech/process/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_all_v4.4/gsclib045_hvt/oa22/gsclib045_hvt
+
+### *************************************************************************
+### General Purpose Reference Libraries
+### *************************************************************************
+#SOFTINCLUDE $AMSHOME/tools/inca/files/cds.lib
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE functional $CDSHOME/tools/dfII/etc/cdslib/artist/functional
+DEFINE basic  $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+DEFINE rfLib $CDSHOME/tools/dfII/samples/artist/rfLib
+DEFINE pllLib $CDSHOME/tools/dfII/samples/artist/pllLib
+
+#DEFINE neww /home/cad/BUET/RAP_workshop_616/WORK/neww
+
+
+DEFINE my_try1 /home/vlsi25/VLSI_Com_Prac/BulBul/my_try1
